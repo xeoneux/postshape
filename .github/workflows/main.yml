@@ -1,15 +1,21 @@
-name: CI
-
+name: Release
 on:
   push:
-    branches: [master]
-  workflow_dispatch:
+    branches:
+      - master
+permissions:
+  contents: write # to be able to publish a GitHub release
+  issues: write # to be able to comment on released issues
+  pull-requests: write # to be able to comment on released pull requests
+  id-token: write # to enable use of OIDC for npm provenance
+
 jobs:
   build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version:
+          - 18.x
     steps:
       - uses: actions/checkout@v3
       - name: Use Node.js ${{ matrix.node-version }}
@@ -29,7 +35,7 @@ jobs:
       - name: 'Publish package'
         run: yarn deploy:lib
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-      - name: 'Deploy site'
-        run: 'yarn deploy:site --token ${{ secrets.FIREBASE_TOKEN }}'
+      # - name: 'Deploy site'
+      #   run: 'yarn deploy:site --token ${{ secrets.FIREBASE_TOKEN }}'

@@ -1,10 +1,4 @@
 {
-  "branches": [
-    {
-      "name": "master",
-      "channel": "next"
-    }
-  ],
   "plugins": [
     [
       "@semantic-release/commit-analyzer",

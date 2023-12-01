@@ -1,3 +1,12 @@
+### [16.1.2](https://github.com/xeoneux/postshape/compare/v16.1.1...v16.1.2) (2023-12-01)
+
+
+### Fixes
+
+* **Colors:** Fixed incorrect dark shade colors ([f4919bf](https://github.com/xeoneux/postshape/commit/f4919bf2fcab0de33e0d56e72a94b2242404f066))
+* **Colors:** Tweaked the base colors ([538fa1d](https://github.com/xeoneux/postshape/commit/538fa1d8c78170d2fb9ba7d45634ded2d41726c2))
+* **Placement:** Export UsePlacementResult type ([e128e0c](https://github.com/xeoneux/postshape/commit/e128e0c806f15812665d7e2b24245bf995c20dce))
+
 ## 1.0.0 (2023-12-01)
 
 

@@ -9,7 +9,7 @@ import {
   ThemeProvider,
   useLocalStorage,
   useMatchMedia,
-} from 'preshape';
+} from 'postshape';
 import { useEffect, useState } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Menu } from './components/Menu/Menu';
@@ -18,12 +18,12 @@ import { ComponentPage } from './pages/Component';
 import { ComponentsPage } from './pages/Components';
 import { SizingsPage } from './pages/Sizings';
 import { ThemesPage } from './pages/Themes';
-import 'preshape/dist/style.css';
+import 'postshape/dist/style.css';
 
 const App = () => {
   const [menuVisible, setMenuVisible] = useState(false);
   const [dontUseMessageVisible, setDontUseMessageVisible] = useLocalStorage(
-    'preshape.dontUseMessage',
+    'postshape.dontUseMessage',
     true
   );
 

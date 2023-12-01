@@ -15,9 +15,9 @@ export default defineConfig((configEnv) => ({
     sourcemap: true,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
-      name: 'preshape',
+      name: 'postshape',
       formats: ['es', 'umd'],
-      fileName: (format) => `preshape.${format}.js`,
+      fileName: (format) => `postshape.${format}.js`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react-router-dom'],

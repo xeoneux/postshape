@@ -1,4 +1,4 @@
-import { Link, LinkProps } from 'preshape';
+import { Link, LinkProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramLink';
 
@@ -24,13 +24,13 @@ const Item: CatalogueItem<{
     },
     Component: (props) => <Link {...props.Link}>Lorem ipsum</Link>,
     code: `
-import { Link } from 'preshape';
+import { Link } from 'postshape';
 
 <Link to="/some-destination">
   Lorem ipsum
 </Link>
 
-<Link underline href="http://preshape.hogg.io" target="SomeTarget">
+<Link underline href="http://postshape.hogg.io" target="SomeTarget">
   Lorem ipsum
 </Link>`,
   },

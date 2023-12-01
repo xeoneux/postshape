@@ -1,8 +1,8 @@
 {
   "name": "root",
   "version": "0.0.0",
-  "description": "Preshape monorepo root - See workspaces/package for the preshape package code",
-  "repository": "git@github.com:HHogg/preshape.git",
+  "description": "Postshape monorepo root - See workspaces/package for the postshape package code",
+  "repository": "git@github.com:xeoneux/postshape.git",
   "author": "Harry Hogg <harry@hogg.io>",
   "license": "MIT",
   "private": true,
@@ -12,8 +12,8 @@
     "workspaces/**"
   ],
   "scripts": {
-    "build": "yarn workspace preshape build && yarn workspace site build",
-    "dev": "yarn workspace preshape build && concurrently \"yarn workspace preshape run dev\" \"yarn workspace site run dev\"",
+    "build": "yarn workspace postshape build && yarn workspace site build",
+    "dev": "yarn workspace postshape build && concurrently \"yarn workspace postshape run dev\" \"yarn workspace site run dev\"",
     "format": "prettier --write .",
     "lint": "yarn lint:js && yarn lint:css",
     "lint:css": "stylelint workspaces/**/src/**/*.css",

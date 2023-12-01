@@ -1,4 +1,4 @@
-import { Appear, AppearProps, Box } from 'preshape';
+import { Appear, AppearProps, Box } from 'postshape';
 import { useEffect, useRef, useState } from 'react';
 import { CatalogueItem } from '..';
 import ThemeIcon from '../../components/ThemeIcon/ThemeIcon';
@@ -66,7 +66,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { Appear } from 'preshape';
+import { Appear } from 'postshape';
 
 <Appear animation="FadeSlideUp" delay={100}>
     ...

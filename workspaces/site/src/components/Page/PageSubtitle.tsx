@@ -1,4 +1,4 @@
-import { Text, TextProps } from 'preshape';
+import { Text, TextProps } from 'postshape';
 
 interface Props extends TextProps {
   children: string;

@@ -11,7 +11,7 @@ import {
   ModalTitle,
   ModalTitleProps,
   Text,
-} from 'preshape';
+} from 'postshape';
 import { useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramModal';
@@ -139,7 +139,7 @@ import {
   ModalHeader,
   ModalTitle,
   ModalManager,
-} from 'preshape';
+} from 'postshape';
 
 // The ModalManager is used to manage the stacking of modals
 // so that only one is visible at a time.

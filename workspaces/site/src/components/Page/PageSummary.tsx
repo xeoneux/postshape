@@ -1,4 +1,4 @@
-import { Appear, Box, Button, Text } from 'preshape';
+import { Appear, Box, Button, Text } from 'postshape';
 import { PropsWithChildren } from 'react';
 
 type PageSummaryProps = {

@@ -32,7 +32,7 @@ import {
   Text,
   CodeBlock,
   CodeWindow,
-} from 'preshape';
+} from 'postshape';
 import { ColorProps } from '../components/Color/Color';
 import { ColorList } from '../components/Color/ColorList';
 import { Page } from '../components/Page/Page';
@@ -336,7 +336,7 @@ export const ColorsPage = () => {
 
           <CodeBlock language="typescript">{`
 /* JS Variables */
-import { colorAccent1Shade1, colorAccent1Shade3 } from 'preshape';
+import { colorAccent1Shade1, colorAccent1Shade3 } from 'postshape';
 
 colorAccent1Shade1; // ${colorAccent1Shade1}
 colorAccent1Shade3; // ${colorAccent1Shade3}

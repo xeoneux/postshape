@@ -1,4 +1,4 @@
-import { Form, Input, InputLabel, Tooltip } from 'preshape';
+import { Form, Input, InputLabel, Tooltip } from 'postshape';
 import { FormEvent, useState, PropsWithChildren } from 'react';
 import { ApiValueController } from './Types';
 

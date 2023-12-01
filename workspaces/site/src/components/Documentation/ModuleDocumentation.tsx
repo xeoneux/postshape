@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 import { JSONOutput } from 'typedoc';
 import { CatalogueApi } from '../../docs';
 import ComponentDocumentation from './ComponentDocumentation';

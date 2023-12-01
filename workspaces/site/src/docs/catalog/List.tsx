@@ -1,4 +1,4 @@
-import { List, ListProps, ListItem, ListItemProps } from 'preshape';
+import { List, ListProps, ListItem, ListItemProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramList';
 
@@ -39,7 +39,7 @@ const Item: CatalogueItem<{
       </List>
     ),
     code: `
-import { List, ListItem } from 'preshape';
+import { List, ListItem } from 'postshape';
 
 <List>
   <ListItem>Lorem ipsum</ListItem>

@@ -11,7 +11,7 @@ interface Props extends TypeRendererProps {
 const TypeRendererReference = (props: PropsWithChildren<Props>) => {
   const { type } = props;
   const { target } = type;
-  const isExternalReference = type.package !== 'preshape';
+  const isExternalReference = type.package !== 'postshape';
 
   if (typeof target !== 'number' || isExternalReference) {
     return (

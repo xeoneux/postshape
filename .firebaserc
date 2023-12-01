@@ -1,12 +1,12 @@
 {
   "projects": {
-    "default": "hoggio-2524a"
+    "default": "postshape"
   },
   "targets": {
-    "hoggio-2524a": {
+    "postshape": {
       "hosting": {
-        "preshape": [
-          "preshape"
+        "postshape": [
+          "postshape"
         ]
       }
     }

@@ -4,7 +4,7 @@ import {
   SkipBackIcon,
   SkipForwardIcon,
 } from 'lucide-react';
-import { Box, Button, ButtonProps, Buttons, ButtonsProps } from 'preshape';
+import { Box, Button, ButtonProps, Buttons, ButtonsProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramButton';
 
@@ -69,7 +69,7 @@ const Item: CatalogueItem<{
       </Box>
     ),
     code: `
-import { Buttons, Button } from 'preshape';
+import { Buttons, Button } from 'postshape';
 
 <Buttons>
   <Button variant="tertiary">

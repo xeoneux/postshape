@@ -12,7 +12,7 @@ import {
   FormError,
   FormValidateFn,
   FormValidateError,
-} from 'preshape';
+} from 'postshape';
 import { FormEvent, useCallback, useMemo, useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramForm';
@@ -186,7 +186,7 @@ const Item: CatalogueItem<{
     },
     code: `
 import { useCallback, useMemo } from 'react';
-import { useForm, Form, FormValidateFn, FormState Input } from 'preshape';
+import { useForm, Form, FormValidateFn, FormState Input } from 'postshape';
 
 const initial = useMemo<FormState>(() => ({
   someValue: '',

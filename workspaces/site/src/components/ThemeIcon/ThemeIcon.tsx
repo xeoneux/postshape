@@ -1,5 +1,5 @@
 import { LucideProps, MoonIcon, SunIcon } from 'lucide-react';
-import { useThemeContext } from 'preshape';
+import { useThemeContext } from 'postshape';
 import { FC } from 'react';
 
 const ThemeIcon: FC<LucideProps> = (props) => {

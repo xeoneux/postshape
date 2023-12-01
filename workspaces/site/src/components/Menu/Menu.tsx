@@ -1,14 +1,14 @@
 import {
-  Box,
-  BoxProps,
-  Image,
-  Link,
-  Text,
-  ThemeSwitcher,
-  useThemeContext,
-} from 'preshape';
+    Box,
+    BoxProps,
+    Image,
+    Link,
+    Text,
+    ThemeSwitcher,
+    useThemeContext,
+} from 'postshape';
 import { catalogueListing } from '../../docs';
-import { Logo } from '../Logo/PreshapeIcon';
+import { Logo } from '../Logo/PostshapeIcon';
 import { MenuItem } from './MenuItem';
 
 type MenuProps = BoxProps & {
@@ -25,7 +25,7 @@ export const Menu = ({ onSelect, ...props }: MenuProps) => {
 
         <Box>
           <Text align="middle" margin="x2" size="x6" weight="x5">
-            Preshape
+            Postshape
           </Text>
 
           <Text align="middle" size="x3" textColor="text-shade-4">
@@ -34,12 +34,12 @@ export const Menu = ({ onSelect, ...props }: MenuProps) => {
           </Text>
         </Box>
 
-        <Link display="block" href="https://www.npmjs.com/package/preshape">
+        <Link display="block" href="https://www.npmjs.com/package/postshape">
           <Image
             alt="npm version"
             async
             height="18"
-            src={`https://img.shields.io/npm/v/preshape?color=${encodeURIComponent(
+            src={`https://img.shields.io/npm/v/postshape?color=${encodeURIComponent(
               colors.colorAccentShade4
             )}&label=NPM`}
           />

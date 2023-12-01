@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 import { forwardRef } from 'react';
 export const Pictogram = forwardRef<SVGSVGElement, BoxProps>((props, ref) => {
   return <Box {...props} className="Pictogram" ref={ref} tag="svg" viewBox="0 0 248 96">

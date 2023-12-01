@@ -1,4 +1,4 @@
-import { RadioButton, RadioButtonProps } from 'preshape';
+import { RadioButton, RadioButtonProps } from 'postshape';
 import { Fragment } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramRadiobutton';
@@ -34,7 +34,7 @@ const Item: CatalogueItem<{
       </Fragment>
     ),
     code: `
-import { RadioButton } from 'preshape';
+import { RadioButton } from 'postshape';
 
 <RadioButton checked={false} onChange={() => {}}>
   ...

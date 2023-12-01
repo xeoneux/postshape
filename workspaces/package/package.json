@@ -1,14 +1,14 @@
 {
-  "name": "preshape",
+  "name": "postshape",
   "version": "0.0.0-development",
   "description": "A minimal design system and library of composable React components, primarily for my personal projects.",
-  "repository": "git@github.com:HHogg/preshape.git",
+  "repository": "git@github.com:xeoneux/postshape.git",
   "author": "Harry Hogg <harry@hogg.io>",
   "license": "MIT",
   "source": "src",
   "type": "module",
-  "main": "./dist/preshape.es.js",
-  "module": "./dist/preshape.es.js",
+  "main": "./dist/postshape.es.js",
+  "module": "./dist/postshape.es.js",
   "types": "./dist/index.d.ts",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {

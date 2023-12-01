@@ -1,4 +1,4 @@
-import { Alert, AlertProps, Text } from 'preshape';
+import { Alert, AlertProps, Text } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramAlert';
 
@@ -32,7 +32,7 @@ const Item: CatalogueItem<{
       </Alert>
     ),
     code: `
-import { Alert } from 'preshape';
+import { Alert } from 'postshape';
 
 <Alert color="accent" fill>
   ...

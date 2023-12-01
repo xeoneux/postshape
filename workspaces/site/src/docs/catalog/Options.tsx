@@ -11,7 +11,7 @@ import {
   PlacementReference,
   PlacementOpenCondition,
   PlacementContent,
-} from 'preshape';
+} from 'postshape';
 import { useEffect, useMemo, useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramOptions';
@@ -109,7 +109,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { Options, Option } from 'preshape';
+import { Options, Option } from 'postshape';
 
 <Options>
   <Option>Option 1</Option>

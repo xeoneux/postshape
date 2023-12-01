@@ -1,4 +1,4 @@
-import { Box, Link, Text } from 'preshape';
+import { Box, Link, Text } from 'postshape';
 import { Fragment } from 'react';
 import { JSONOutput } from 'typedoc';
 import GithubLink from '../GithubLink/GithubLink';

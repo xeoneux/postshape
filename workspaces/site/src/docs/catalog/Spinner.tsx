@@ -1,4 +1,4 @@
-import { Spinner, SpinnerProps } from 'preshape';
+import { Spinner, SpinnerProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramSpinner';
 
@@ -23,7 +23,7 @@ const Item: CatalogueItem<{
     },
     Component: (props) => <Spinner {...props.Spinner} />,
     code: `
-import { Spinner } from 'preshape';
+import { Spinner } from 'postshape';
 
 <Spinner />`,
   },

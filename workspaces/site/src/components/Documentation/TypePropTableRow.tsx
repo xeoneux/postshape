@@ -1,4 +1,4 @@
-import { Buttons, Label, TableCell, TableRow, Text } from 'preshape';
+import { Buttons, Label, TableCell, TableRow, Text } from 'postshape';
 import { JSONOutput } from 'typedoc';
 import TypeRenderer from './TypeRenderer';
 import { ApiValueController } from './Types';

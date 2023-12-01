@@ -6,7 +6,7 @@ import {
   InputLabel,
   InputLabelProps,
   InputWrapperProps,
-} from 'preshape';
+} from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramInput';
 
@@ -54,7 +54,7 @@ const Item: CatalogueItem<{
       </InputLabel>
     ),
     code: `
-import { InputLabel, Input } from 'preshape';
+import { InputLabel, Input } from 'postshape';
 
 <InputLabel label="Input label">
   <Input

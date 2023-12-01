@@ -17,7 +17,7 @@ module.exports = {
     const typeScriptTpl = template.smart({ plugins: ['jsx', 'typescript'] });
 
     return typeScriptTpl.ast`/** AUTO GENERATED **/
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 import { forwardRef } from 'react';
 
 export const Logo = forwardRef<SVGSVGElement, BoxProps>((props, ref) => {

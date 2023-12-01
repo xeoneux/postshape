@@ -1,4 +1,4 @@
-import { Label, LabelProps, Labels, LabelsProps } from 'preshape';
+import { Label, LabelProps, Labels, LabelsProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramLabels';
 
@@ -37,7 +37,7 @@ const Item: CatalogueItem<{
       </Labels>
     ),
     code: `
-import { Labels, Label } from 'preshape';
+import { Labels, Label } from 'postshape';
 
 <Labels>
   <Label>Lorem ipsum</Label>

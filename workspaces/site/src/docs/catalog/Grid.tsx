@@ -1,4 +1,4 @@
-import { Box, Grid, GridProps, GridItem, GridItemProps } from 'preshape';
+import { Box, Grid, GridProps, GridItem, GridItemProps } from 'postshape';
 import { CatalogueItem } from '..';
 import ThemeIcon from '../../components/ThemeIcon/ThemeIcon';
 import { Pictogram } from './pictograms/PictogramGrid';
@@ -51,7 +51,7 @@ const Item: CatalogueItem<{
       </Grid>
     ),
     code: `
-import { Grid } from 'preshape';
+import { Grid } from 'postshape';
 
 <Grid gap="x8" repeatWidthMin="240px">
   ...

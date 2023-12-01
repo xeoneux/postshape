@@ -1,5 +1,5 @@
 import { CopyIcon, DropletIcon, Edit2Icon, StarIcon } from 'lucide-react';
-import { Button, Buttons, Tooltip, TooltipProps } from 'preshape';
+import { Button, Buttons, Tooltip, TooltipProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramPlacement';
 
@@ -52,7 +52,7 @@ const Item: CatalogueItem<{
       </Tooltip>
     ),
     code: `
-import { Tooltip } from 'preshape';
+import { Tooltip } from 'postshape';
 
 <Tooltip
   borderRadius="x1"

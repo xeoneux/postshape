@@ -1,4 +1,4 @@
-import { Button, Icons, Text } from 'preshape';
+import { Button, Icons, Text } from 'postshape';
 
 type PageChangeButtonProps = {
   description?: string;

@@ -1,5 +1,5 @@
 import { GithubIcon } from 'lucide-react';
-import { Button, ButtonProps, Tooltip } from 'preshape';
+import { Button, ButtonProps, Tooltip } from 'postshape';
 
 const GithubLink = (props: ButtonProps) => {
   return (

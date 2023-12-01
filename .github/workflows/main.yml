@@ -19,7 +19,7 @@ jobs:
       - name: 'Install Dependencies'
         run: yarn
       - name: 'Build package'
-        run: yarn workspace preshape build
+        run: yarn workspace postshape build
       - name: 'Linting'
         run: yarn lint
       - name: 'Build site'

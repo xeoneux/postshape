@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from 'preshape';
+import { Box, BoxProps, Text } from 'postshape';
 import SizingIcon from './SizingIcon';
 
 export interface SizingProps extends Omit<BoxProps, 'children'> {

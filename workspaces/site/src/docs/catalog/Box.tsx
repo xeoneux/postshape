@@ -1,5 +1,5 @@
 import omit from 'lodash.omit';
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 import { CatalogueItem } from '..';
 import ThemeIcon from '../../components/ThemeIcon/ThemeIcon';
 import { Pictogram } from './pictograms/PictogramBase';
@@ -59,13 +59,13 @@ const Item: CatalogueItem<{
       </Box>
     ),
     code: `
-import { Box } from 'preshape';
+import { Box } from 'postshape';
 
 <Box
     alignChildren="middle"
     backgroundColor="background-shade-1"
     flex="vertical"
-    href="https://preshape.hogg.io"
+    href="https://postshape.hogg.io"
     padding="x16"
     tag="a"
     textColor="text-shade-3">

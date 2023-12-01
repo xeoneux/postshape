@@ -1,4 +1,4 @@
-import { Box, Text, TextProps } from 'preshape';
+import { Box, Text, TextProps } from 'postshape';
 import { Fragment } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramText';
@@ -79,7 +79,7 @@ const Item: CatalogueItem<{
       </Fragment>
     ),
     code: `
-import { Text } from 'preshape';
+import { Text } from 'postshape';
 
 <Text margin="x4" size="x8" weight="x2>
   ...

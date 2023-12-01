@@ -1,4 +1,4 @@
-import { Box, BoxProps, Button, Text } from 'preshape';
+import { Box, BoxProps, Button, Text } from 'postshape';
 import { useMatch } from 'react-router-dom';
 
 type MenuItemProps = BoxProps & {

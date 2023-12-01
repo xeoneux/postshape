@@ -3,7 +3,7 @@ import {
   BulletPointProps,
   BulletPoints,
   BulletPointsProps,
-} from 'preshape';
+} from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramBulletpoints';
 
@@ -42,7 +42,7 @@ const Item: CatalogueItem<{
       </BulletPoints>
     ),
     code: `
-import { BulletPoints, BulletPoint } from 'preshape';
+import { BulletPoints, BulletPoint } from 'postshape';
 
 <BulletPoints>
   <BulletPoint>...</BulletPoint>

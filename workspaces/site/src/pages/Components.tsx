@@ -1,4 +1,4 @@
-import { Box, Grid, Link, Text } from 'preshape';
+import { Box, Grid, Link, Text } from 'postshape';
 import { Page } from '../components/Page/Page';
 import { catalogueListing } from '../docs';
 

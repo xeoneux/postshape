@@ -1,4 +1,4 @@
-import { Box, CodeBlock, CodeWindow, useMatchMedia } from 'preshape';
+import { Box, CodeBlock, CodeWindow, useMatchMedia } from 'postshape';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import ModuleDocumentation from '../components/Documentation/ModuleDocumentation';

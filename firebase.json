@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "target": "preshape",
+    "target": "postshape",
     "public": "./workspaces/site/dist/client",
     "rewrites": [
       {

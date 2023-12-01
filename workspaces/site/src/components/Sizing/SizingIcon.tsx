@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 
 export interface Props extends Omit<BoxProps, 'name' | 'value'> {
   name: string;

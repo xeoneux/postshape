@@ -1,5 +1,5 @@
 import { CircleIcon, TriangleIcon } from 'lucide-react';
-import { Toggle, ToggleProps } from 'preshape';
+import { Toggle, ToggleProps } from 'postshape';
 import { useEffect, useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramToggle';
@@ -42,7 +42,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { Icons, Toggle } from 'preshape';
+import { Icons, Toggle } from 'postshape';
 
 <Toggle
   iconOff={<TriangleIcon size={12} />}

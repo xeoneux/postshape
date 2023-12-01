@@ -1,5 +1,5 @@
 /* eslint-disable import/no-unresolved */
-import { TypeCodeBlockLanguage } from 'preshape';
+import { TypeCodeBlockLanguage } from 'postshape';
 import SnippetCss from './css.txt?raw';
 import SnippetJson from './json.txt?raw';
 import SnippetTsx from './tsx.txt?raw';

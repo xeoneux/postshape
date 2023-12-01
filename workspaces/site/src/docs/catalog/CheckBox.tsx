@@ -1,4 +1,4 @@
-import { CheckBox, CheckBoxProps } from 'preshape';
+import { CheckBox, CheckBoxProps } from 'postshape';
 import { Fragment } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramCheckbox';
@@ -35,7 +35,7 @@ const Item: CatalogueItem<{
       </Fragment>
     ),
     code: `
-import { Checkbox } from 'preshape';
+import { Checkbox } from 'postshape';
 
 <Checkbox checked={false} onChange={() => {}}>
   ...

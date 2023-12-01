@@ -1,5 +1,5 @@
 import { CheckIcon, XIcon } from 'lucide-react';
-import { ButtonAsync, ButtonAsyncProps, Buttons } from 'preshape';
+import { ButtonAsync, ButtonAsyncProps, Buttons } from 'postshape';
 import { useEffect, useRef, useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramButtonasync';
@@ -132,7 +132,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { ButtonAsync } from 'preshape';
+import { ButtonAsync } from 'postshape';
 
 <ButtonAsync
   isError={false}

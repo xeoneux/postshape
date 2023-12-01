@@ -1,5 +1,5 @@
 import { DateTime } from 'luxon';
-import { DatePicker, DatePickerProps } from 'preshape';
+import { DatePicker, DatePickerProps } from 'postshape';
 import { useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramDatepicker';
@@ -51,7 +51,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { DatePicker } from 'preshape';
+import { DatePicker } from 'postshape';
 
 <DatePicker
   endDate="04/04/2023"

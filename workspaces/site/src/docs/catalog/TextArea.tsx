@@ -3,7 +3,7 @@ import {
   TextAreaProps,
   TextAreaLabel,
   TextAreaLabelProps,
-} from 'preshape';
+} from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramTextarea';
 
@@ -39,7 +39,7 @@ const Item: CatalogueItem<{
       </TextAreaLabel>
     ),
     code: `
-import { TextAreaLabel, TextArea } from 'preshape';
+import { TextAreaLabel, TextArea } from 'postshape';
 
 <TextAreaLabel label="TextArea label">
   <TextArea

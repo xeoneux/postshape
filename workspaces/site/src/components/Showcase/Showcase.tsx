@@ -1,4 +1,4 @@
-import { Box, BoxProps } from 'preshape';
+import { Box, BoxProps } from 'postshape';
 import { ReactNode } from 'react';
 import GithubLink from '../GithubLink/GithubLink';
 
@@ -68,8 +68,8 @@ const Showcase = ({ basis, children, file }: Props) => {
 
         <Box absolute="top-right" paddingTop="x2" paddingRight="x2">
           <GithubLink
-            href={`https://github.com/HHogg/preshape/blob/master/workspaces/site/src/docs/catalog/${file}.tsx`}
-            target="PreshapeCodeExample"
+            href={`https://github.com/xeoneux/postshape/blob/master/workspaces/site/src/docs/catalog/${file}.tsx`}
+            target="PostshapeCodeExample"
           />
         </Box>
       </Box>

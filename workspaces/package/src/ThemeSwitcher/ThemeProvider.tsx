@@ -24,7 +24,7 @@ export function ThemeProvider({
   initialTheme = 'day',
 }: PropsWithChildren<ThemeProviderProps>) {
   const [theme, setTheme] = useLocalStorage<TypeTheme>(
-    'preshape.theme',
+    'postshape.theme',
     initialTheme
   );
 

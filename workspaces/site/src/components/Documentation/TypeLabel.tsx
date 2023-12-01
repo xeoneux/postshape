@@ -1,5 +1,5 @@
 import { ExternalLinkIcon, InfoIcon } from 'lucide-react';
-import { Box, Button, ButtonProps } from 'preshape';
+import { Box, Button, ButtonProps } from 'postshape';
 import { forwardRef, HTMLAttributes } from 'react';
 import TypeText from './TypeText';
 

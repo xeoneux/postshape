@@ -5,7 +5,7 @@ import {
   TypeTheme,
   themes,
   useThemeContext,
-} from 'preshape';
+} from 'postshape';
 import { ColorProps } from '../components/Color/Color';
 import { ColorList } from '../components/Color/ColorList';
 import { Page } from '../components/Page/Page';
@@ -150,7 +150,7 @@ export const ThemesPage = () => {
         <PageSubtitle>Provider</PageSubtitle>
         <CodeWindow>
           <CodeBlock language="tsx">{`
-import { ThemeProvider } from 'preshape';
+import { ThemeProvider } from 'postshape';
 
 <ThemeProvider initialTheme="${theme}">
     ...
@@ -178,7 +178,7 @@ import { ThemeProvider } from 'preshape';
 
         <CodeWindow>
           <CodeBlock language="tsx">{`
-import { useThemeContext, ThemeSwitcher } from 'preshape';
+import { useThemeContext, ThemeSwitcher } from 'postshape';
 
 <ThemeSwitcher />
 

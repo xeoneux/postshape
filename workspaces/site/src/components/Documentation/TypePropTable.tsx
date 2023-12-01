@@ -6,7 +6,7 @@ import {
   TableHeaderCell,
   TableRow,
   Text,
-} from 'preshape';
+} from 'postshape';
 import { APIItemProps } from './ComponentDocumentation';
 import TypePropTableRow from './TypePropTableRow';
 import { getTag } from './documentation';

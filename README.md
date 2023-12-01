@@ -1,7 +1,8 @@
+NOTE: This is a fork of https://github.com/HHogg/preshape that works with Next.js (instead of Remix or React Router)
 
-![](./workspaces/site/src/assets/preshape.svg)
+![](./workspaces/site/src/assets/postshape.svg)
 
-# Preshape
+# Postshape
 
 A design system and component library for my own personal projects. Take a look around. However, you probably shouldn't use this in your project as there's no guarantee of stability or support.
 
@@ -10,25 +11,25 @@ A design system and component library for my own personal projects. Take a look 
 Install with your favourite package manager
 
 ```
-yarn add preshape
+yarn add postshape
 ```
 
 Add the CSS to your project, e.g.
 
 ```ts
-import 'preshape/dist/style.css';
+import 'postshape/dist/style.css';
 ```
 
 then import and start using components.
 
 ```tsx
-import { Box } from 'preshape';
+import { Box } from 'postshape';
 
 <Box>...</Box>
 ```
 ## Documentation
 
-Description of the design system and component documentation can be found on the [Preshape site](https://preshape.hogg.io).
+Description of the design system and component documentation can be found on the [Postshape site](https://postshape.hogg.io).
 
 ## Development
 
@@ -43,7 +44,7 @@ Description of the design system and component documentation can be found on the
 Clone the repository
 
 ```
-git clone git@github.com:HHogg/preshape.git
+git clone git@github.com:xeoneux/postshape.git
 ```
 
 Install the dependencies with your favourite package manager
@@ -60,4 +61,4 @@ yarn dev
 
 ### Contribution
 
-Preshape uses a strict commit message structure that follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) spec. This is used to automate publishing the package to NPM and generating the changelog with [Semantic Release](https://github.com/semantic-release/semantic-release).
+Postshape uses a strict commit message structure that follows the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/) spec. This is used to automate publishing the package to NPM and generating the changelog with [Semantic Release](https://github.com/semantic-release/semantic-release).

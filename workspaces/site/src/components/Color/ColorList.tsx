@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from 'preshape';
+import { Box, BoxProps, Text } from 'postshape';
 import Color, { ColorProps } from './Color';
 
 interface ColorListProps extends BoxProps {

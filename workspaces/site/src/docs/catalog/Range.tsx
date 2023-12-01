@@ -1,5 +1,5 @@
 import { MoonIcon, SunIcon } from 'lucide-react';
-import { InputLabel, Range, RangeProps } from 'preshape';
+import { InputLabel, Range, RangeProps } from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramRange';
 
@@ -34,7 +34,7 @@ const Item: CatalogueItem<{
       </InputLabel>
     ),
     code: `
-import { Range } from 'preshape';
+import { Range } from 'postshape';
 
 <Range
   addonEnd={<SunIcon name="Sun" size="20px" />}

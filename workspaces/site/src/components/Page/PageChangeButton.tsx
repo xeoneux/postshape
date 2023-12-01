@@ -1,5 +1,5 @@
 import { ChevronLeftIcon, ChevronRightIcon } from 'lucide-react';
-import { Button, Text } from 'preshape';
+import { Button, Text } from 'postshape';
 
 type PageChangeButtonProps = {
   description?: string;

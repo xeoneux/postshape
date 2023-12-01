@@ -1,4 +1,4 @@
-import { Box, Text } from 'preshape';
+import { Box, Text } from 'postshape';
 
 interface Props {
   children: JSX.Element;

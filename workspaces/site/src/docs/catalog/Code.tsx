@@ -3,7 +3,7 @@ import {
   CodeBlockProps,
   CodeWindowProps,
   CodeWindow,
-} from 'preshape';
+} from 'postshape';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramCode';
 import { snippets } from './snippets';
@@ -43,7 +43,7 @@ const Item: CatalogueItem<{
       </CodeWindow>
     ),
     code: `
-import { CodeBlock, CodeWindow } from 'preshape';
+import { CodeBlock, CodeWindow } from 'postshape';
 
 <CodeWindow>
   <CodeBlock language="tsx">

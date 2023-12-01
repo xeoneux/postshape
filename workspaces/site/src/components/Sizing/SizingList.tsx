@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text } from 'preshape';
+import { Box, BoxProps, Text } from 'postshape';
 import Sizing, { SizingProps } from './Sizing';
 
 interface SizingListProps extends BoxProps {

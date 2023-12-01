@@ -1,4 +1,4 @@
-import { Box, BoxProps, Text, TypeColor } from 'preshape';
+import { Box, BoxProps, Text, TypeColor } from 'postshape';
 
 export interface ColorProps extends Omit<BoxProps, 'children'> {
   name: string;

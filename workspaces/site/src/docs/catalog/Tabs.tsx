@@ -9,7 +9,7 @@ import {
   TabContentProps,
   Text,
   Box,
-} from 'preshape';
+} from 'postshape';
 import { Fragment, useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramTabs';
@@ -159,7 +159,7 @@ const Item: CatalogueItem<{
       );
     },
     code: `
-import { Tabs, Tab, TabContent } from 'preshape';
+import { Tabs, Tab, TabContent } from 'postshape';
 
 <Tabs>
   <Tab active>...</Tab>

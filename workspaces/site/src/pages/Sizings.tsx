@@ -44,7 +44,7 @@ import {
   sizeX6Rem,
   sizeX8Px,
   sizeX8Rem,
-} from 'preshape';
+} from 'postshape';
 import { Page } from '../components/Page/Page';
 import { PageSection } from '../components/Page/PageSection';
 import { PageSubtitle } from '../components/Page/PageSubtitle';
@@ -148,7 +148,7 @@ var(--border-radius-size--x1);
 
           <CodeBlock language="tsx">{`
 /* JS Variables */
-import { sizeX1Px, sizeX1Rem, borderRadiusSizeX1Px } from 'preshape';
+import { sizeX1Px, sizeX1Rem, borderRadiusSizeX1Px } from 'postshape';
 `}</CodeBlock>
         </CodeWindow>
       </PageSection>

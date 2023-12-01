@@ -11,7 +11,7 @@ import {
   TableHeaderCellProps,
   TableRow,
   TableRowProps,
-} from 'preshape';
+} from 'postshape';
 import { useState } from 'react';
 import { CatalogueItem } from '..';
 import { Pictogram } from './pictograms/PictogramTable';
@@ -159,7 +159,7 @@ import {
   TableHeader,
   TableHeaderCell,
   TableRow,
-} from 'preshape';
+} from 'postshape';
 
 <Table size="x2">
   <TableHeader>

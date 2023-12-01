@@ -1,4 +1,4 @@
-NOTE: This is a fork of https://github.com/HHogg/preshape that works with Next.js (instead of Remix or React Router)
+NOTE: This is a fork of https://github.com/HHogg/preshape that works with Next.js (instead of React Router)
 
 ![](./workspaces/site/src/assets/postshape.svg)
 

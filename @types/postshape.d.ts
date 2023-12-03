@@ -1,1 +1,1 @@
-export * from '../workspaces/package/src';
+export * from "../workspaces/package/src";

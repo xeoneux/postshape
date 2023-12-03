@@ -1,4 +1,4 @@
-NOTE: This is a fork of https://github.com/HHogg/preshape that works with Next.js (instead of React Router)
+NOTE: This is a fork of https://github.com/HHogg/preshape that works with Next.js
 
 ![](./workspaces/site/src/assets/postshape.svg)
 
@@ -17,16 +17,17 @@ yarn add postshape
 Add the CSS to your project, e.g.
 
 ```ts
-import 'postshape/dist/style.css';
+import "postshape/dist/style.css";
 ```
 
 then import and start using components.
 
 ```tsx
-import { Box } from 'postshape';
+import { Box } from "postshape";
 
-<Box>...</Box>
+<Box>...</Box>;
 ```
+
 ## Documentation
 
 Description of the design system and component documentation can be found on the [Postshape site](https://postshape.hogg.io).

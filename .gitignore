@@ -1,12 +1,8 @@
 .cache
 .firebase
-.parcel-cache
-.yarn/install-state.gz
+.next
 dist
-lib
+next-env.d.ts
 node_modules
-package-lock.json
-public
 tsconfig.tsbuildinfo
-yarn-error.log
-workspaces/site/src/assets/documentation.json
+packages/website/src/assets/documentation.json

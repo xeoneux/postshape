@@ -22,15 +22,15 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: 'Install Dependencies'
+      - name: "Install Dependencies"
         run: yarn
-      - name: 'Build package'
+      - name: "Build package"
         run: yarn workspace postshape build
-      - name: 'Linting'
+      - name: "Linting"
         run: yarn lint
-      - name: 'Build site'
+      - name: "Build site"
         run: yarn workspace site build
-      - name: 'Publish package'
+      - name: "Publish package"
         run: yarn deploy:lib
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

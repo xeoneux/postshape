@@ -1,0 +1,13 @@
+ul:not(.BulletPoints),
+ol:not(.BulletPoints) {
+  padding: unset;
+  list-style: none;
+}
+
+.BulletPoints--numbered {
+  list-style-type: decimal;
+}
+
+.BulletPoints__point-content {
+  font-weight: normal;
+}

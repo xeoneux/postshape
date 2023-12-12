@@ -1,8 +1,0 @@
-{
-  "extends": "stylelint-config-standard",
-  "rules": {
-    "custom-property-pattern": null,
-    "declaration-block-single-line-max-declarations": 2,
-    "selector-class-pattern": null
-  }
-}

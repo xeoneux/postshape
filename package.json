@@ -15,14 +15,11 @@
     "build:library": "cd packages/library && bun run build",
     "build:website": "cd packages/website && bun run build",
     "dev": "bun run build:library && concurrently \"cd packages/library && bun run dev\" \"cd packages/website && bun run dev\"",
-    "format": "prettier --write .",
-    "lint": "bun run lint:js && bun run lint:css",
-    "lint:css": "stylelint packages/**/src/**/*.css",
-    "lint:js": "eslint \"packages/**/src/**/*.tsx\" \"packages/**/src/**/*.ts\" --fix"
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
-    "firebase-tools": "^12.9.1",
-    "prettier": "^3.1.0"
+    "firebase-tools": "^13.0.1",
+    "prettier": "^3.1.1"
   }
 }

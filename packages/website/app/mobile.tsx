@@ -1,12 +1,10 @@
-"use client";
-
 import { MenuIcon } from "lucide-react";
 import { Box, Modal } from "postshape";
 import { useState } from "react";
 // import { Menu } from '../Menu/Menu';
 // import Message from './Message';
 
-const MobileApp = ({ children }) => {
+const MobileApp = ({ children }: { children: React.ReactNode }) => {
   const [menuVisible, setMenuVisible] = useState(false);
 
   return (

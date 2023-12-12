@@ -1,6 +1,5 @@
 import { Box, CodeBlock, CodeWindow, useMatchMedia } from "postshape";
 import { useState } from "react";
-import { useParams } from "react-router-dom";
 import ModuleDocumentation from "../components/Documentation/ModuleDocumentation";
 import { getModuleSummary } from "../components/Documentation/documentation";
 import { Page } from "../components/Page/Page";
@@ -11,8 +10,8 @@ import Showcase from "../components/Showcase/Showcase";
 import { getCatalogItem } from "../docs";
 
 export const ComponentPage = () => {
-  const params = useParams<"id">();
-  const id = params.id?.toLocaleLowerCase();
+  // const params = useParams<"id">();
+  const id = ""; // params.id?.toLocaleLowerCase();
   const item = getCatalogItem(id);
   const previousItem = getCatalogItem(id, -1);
   const nextItem = getCatalogItem(id, 1);

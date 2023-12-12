@@ -2,7 +2,7 @@ import { Appear, Box } from "postshape";
 import { Menu } from "./menu/menu";
 // import Message from './Message';
 
-const DesktopApp = ({ children }) => {
+const DesktopApp = ({ children }: { children: React.ReactNode }) => {
   return (
     <Box flex="vertical" grow>
       {/* <Message /> */}

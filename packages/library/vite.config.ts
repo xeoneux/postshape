@@ -20,7 +20,7 @@ export default defineConfig({
       fileName: (format) => `postshape.${format}.js`,
     },
     rollupOptions: {
-      external: ["next", "react", "react-dom"],
+      external: ["react", "react-dom"],
       output: {
         globals: {
           react: "React",

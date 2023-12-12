@@ -30,7 +30,7 @@ import { Link } from 'postshape';
   Lorem ipsum
 </Link>
 
-<Link underline href="http://postshape.hogg.io" target="SomeTarget">
+<Link underline href="http://preshape.hogg.io" target="SomeTarget">
   Lorem ipsum
 </Link>`,
   },

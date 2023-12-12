@@ -1,7 +1,7 @@
 import {
-  Text,
   CodeBlock,
   CodeWindow,
+  Text,
   TypeTheme,
   themes,
   useThemeContext,

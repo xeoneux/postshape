@@ -65,7 +65,7 @@ import { Box } from 'postshape';
     alignChildren="middle"
     backgroundColor="background-shade-1"
     flex="vertical"
-    href="https://postshape.hogg.io"
+    href="https://preshape.hogg.io"
     padding="x16"
     tag="a"
     textColor="text-shade-3">

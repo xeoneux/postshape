@@ -2,9 +2,9 @@ import omit from "lodash/omit";
 import { MailIcon } from "lucide-react";
 import {
   Input,
-  InputProps,
   InputLabel,
   InputLabelProps,
+  InputProps,
   InputWrapperProps,
 } from "postshape";
 import { CatalogueItem } from "..";

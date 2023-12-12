@@ -1,14 +1,14 @@
 import {
   Table,
-  TableProps,
   TableBody,
   TableBodyProps,
   TableCell,
   TableCellProps,
   TableHeader,
-  TableHeaderProps,
   TableHeaderCell,
   TableHeaderCellProps,
+  TableHeaderProps,
+  TableProps,
   TableRow,
   TableRowProps,
 } from "postshape";

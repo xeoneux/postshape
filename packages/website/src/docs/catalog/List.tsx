@@ -1,4 +1,4 @@
-import { List, ListProps, ListItem, ListItemProps } from "postshape";
+import { List, ListItem, ListItemProps, ListProps } from "postshape";
 import { CatalogueItem } from "..";
 import { Pictogram } from "./pictograms/PictogramList";
 

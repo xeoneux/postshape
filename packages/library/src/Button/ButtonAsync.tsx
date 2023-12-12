@@ -1,17 +1,17 @@
 import { AlertCircleIcon, FrownIcon, SmileIcon } from "lucide-react";
 import {
   Dispatch,
-  SetStateAction,
   forwardRef,
+  SetStateAction,
   useEffect,
   useRef,
   useState,
 } from "react";
 import { Appear } from "../Appear/Appear";
 import { Box } from "../Box/Box";
+import { Button, ButtonProps } from "../Button/Button";
 import { Spinner } from "../Spinner/Spinner";
 import { Tooltip } from "../Tooltip/Tooltip";
-import { Button, ButtonProps } from "./Button";
 
 /**
  * A button that can be used to show loading, success, and error states.

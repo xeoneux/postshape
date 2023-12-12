@@ -1,8 +1,8 @@
 import {
   CodeBlock,
   CodeBlockProps,
-  CodeWindowProps,
   CodeWindow,
+  CodeWindowProps,
 } from "postshape";
 import { CatalogueItem } from "..";
 import { Pictogram } from "./pictograms/PictogramCode";

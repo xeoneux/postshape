@@ -1,8 +1,8 @@
 import {
   TextArea,
-  TextAreaProps,
   TextAreaLabel,
   TextAreaLabelProps,
+  TextAreaProps,
 } from "postshape";
 import { CatalogueItem } from "..";
 import { Pictogram } from "./pictograms/PictogramTextarea";

@@ -1,14 +1,14 @@
 import { MoonIcon, StarIcon, SunIcon } from "lucide-react";
 import {
+  Box,
   Link,
-  Tabs,
-  TabsProps,
   Tab,
-  TabProps,
   TabContent,
   TabContentProps,
+  TabProps,
+  Tabs,
+  TabsProps,
   Text,
-  Box,
 } from "postshape";
 import { Fragment, useState } from "react";
 import { CatalogueItem } from "..";

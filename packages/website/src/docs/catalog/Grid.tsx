@@ -1,4 +1,4 @@
-import { Box, Grid, GridProps, GridItem, GridItemProps } from "postshape";
+import { Box, Grid, GridItem, GridItemProps, GridProps } from "postshape";
 import { CatalogueItem } from "..";
 import ThemeIcon from "../../components/ThemeIcon/ThemeIcon";
 import { Pictogram } from "./pictograms/PictogramGrid";

@@ -68,7 +68,7 @@ export const Toggle = forwardRef<HTMLLabelElement, ToggleProps>(
       ...rest
     } = props;
 
-    const paddingAndBorder = 8; // TODO(xeoneux): Do this better.
+    const paddingAndBorder = 8; // TODO(hhogg): Do this better.
     const knobSize = size - paddingAndBorder;
 
     return (

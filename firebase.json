@@ -1,7 +1,7 @@
 {
   "hosting": {
     "target": "postshape",
-    "public": "./workspaces/site/dist/client",
+    "public": "./workspaces/website/dist/client",
     "rewrites": [
       {
         "source": "**",

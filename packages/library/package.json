@@ -30,7 +30,6 @@
     "lodash.omit": "^4.5.0",
     "lucide-react": "^0.294.0",
     "luxon": "^3.4.4",
-    "next": "^14.0.3",
     "normalize.css": "^8.0.1",
     "open-color": "^1.9.1",
     "react": "^18.2.0",

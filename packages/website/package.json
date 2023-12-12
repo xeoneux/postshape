@@ -4,10 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "next dev -p 4001",
-    "build": "next build",
-    "build:svgs": "bun run build:svgs:pictograms && bun run build:svgs:logo",
-    "build:svgs:logo": "bun run svgr ./src/assets/postshape-icon.svg --out-dir ./src/components/Logo --ext tsx --config-file .svgrrc.logo.cjs",
+    "dev": "bun run build:svgs && next dev -p 4001",
+    "build": "bun run build:svgs && next build",
+    "build:svgs": "bun run build:svgs:pictograms",
     "build:svgs:pictograms": "bun run svgr -d ./src/docs/catalog/pictograms ./src/assets/pictogram-svgs --ext tsx --config-file .svgrrc.pictograms.cjs"
   },
   "dependencies": {
